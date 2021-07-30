@@ -12,7 +12,7 @@ program
 .option('-ns,--no-symbols','Get a password generated without any symbols in it')
 .parse()
 
-console.log(program.opts())
+// console.log(program.opts())
 const{length,numbers,symbols,save}=program.opts()
 
 //Saving the password
